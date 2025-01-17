@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Todo App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="formContainer">
+        <form id="my-form">
+          <input required type="text" placeholder="title" id="title" />
+          <button type="button">Add Todo</button>
+        </form>
+      </div>
+
+      <div class="todos-container">
+        <div class="todos-and-checkbox">
+          <div class="todos-items">
+            <input type="checkbox" class="checkbox" />
+            <p class="todo">This is demo todo</p>
+          </div>
+
+          <!-- <p class="placeholder">No Todo Yet</p> -->
+          <button class="delete" type="button">X</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
